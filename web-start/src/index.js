@@ -344,7 +344,8 @@ mediaCaptureElement.addEventListener('change', onMediaFileSelected);
 
 const firebaseAppConfig = getFirebaseConfig();
 // TODO 0: Initialize Firebase
-
+const firebaseAppConfig = getFirebaseConfig();
+initializeApp(firebaseAppConfig);
 // TODO 12: Initialize Firebase Performance Monitoring
 
 initFirebaseAuth();
